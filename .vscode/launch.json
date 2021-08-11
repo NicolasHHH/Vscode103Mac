@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "clang++ - build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "targetArchitecture": "x86_64",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "preLaunchTask": "C/C++: clang++ build active file",
+            "internalConsoleOptions": "openOnSessionStart",
+            
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true, // set true to enable keyboard input
+            "MIMode": "lldb"
+            
+        }
+    ]
+}
